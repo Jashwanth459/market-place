@@ -1,0 +1,19 @@
+/*
+PULIGUNDLA, JASHWANTH CHOWDARY (1001949700)
+PATIL, SWAPNIL DIGAMBAR (1002032004)
+REDDY, RANJITH GOPAL (1002028255) 
+*/
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

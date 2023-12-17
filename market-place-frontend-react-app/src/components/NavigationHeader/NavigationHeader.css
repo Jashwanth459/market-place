@@ -1,0 +1,310 @@
+/*
+PULIGUNDLA, JASHWANTH CHOWDARY (1001949700)
+PATIL, SWAPNIL DIGAMBAR (1002032004)
+REDDY, RANJITH GOPAL (1002028255) 
+*/
+
+.main-navigation {
+    width: 100%;
+    height: 4.5rem;
+    background: #789c56;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 3px 1px 0px 2px rgba(129, 175, 86, 0.486);
+  }
+  
+  .main-navigation nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .main-navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .main-navigation li {
+    margin: 0 0.5rem;
+  }
+  
+  .main-navigation a {
+    display: block;
+    padding: 0.4rem 0.8rem;
+    text-decoration: none;
+    color: white;
+    border-radius: 2px;
+  }
+
+  .home_icon .logo {
+    padding: 0px;
+    border-radius: 10px;
+  }
+  
+  .main-navigation a:hover,
+  .main-navigation a:active {
+    box-shadow: 0px 0px 0px 0px rgba(104, 196, 196, 0.836);
+    background: rgb(255, 255, 255);
+    color: #5465c5;
+  }
+  
+  .market-place {
+    color: #ebffba;
+    font-size: 25px;
+  }
+  
+  .market-place:hover {
+    color: #c9ff65;
+    font-size: 30px;
+  }
+  
+  .home_icon {
+    justify-content: flex-start;
+    padding-left: 30px !important;
+  }
+  
+  .my_content {
+    justify-content: flex-end;
+    padding-right: 40px !important;
+  }
+  
+  .header_title {
+    justify-content: center;
+    padding-right: 40px !important;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .header_title {
+      display: none !important;
+    }
+  }
+  
+  .home_icon li:hover {
+    font-size: 5px;
+  }
+  
+  .switch {
+    margin-right: 0px;
+    margin-left: 35px;
+    position: relative;
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .8s;
+    transition: .8s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: '';
+    height: 12px;
+    width: 12px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked+.slider {
+    background-color: #0681da;
+  }
+  
+  input:focus+.slider {
+    box-shadow: 0 0 1px #4d86b4;
+  }
+  
+  input:checked+.slider:before {
+    -webkit-transform: translateX(18px);
+    -ms-transform: translateX(18px);
+    transform: translateX(18px);
+  }
+  
+  .slider.round {
+    border-radius: 40px;
+    margin-left: -31px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
+  .status_message {
+    display: flex;
+    color: rgb(185, 194, 61);
+    margin: 15px 30px 0px 0px;
+    float: right;
+    padding: 5px;
+    background-color: rgba(128, 117, 75, 0.397);
+    border-radius: 5px;
+  }
+  
+  .status_message hidden {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 2s, opacity 2s linear;
+  }
+  
+  .search_input {
+    display: flex;
+  }
+  
+  .search_input input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    background: #f1f1f1;
+  }
+  
+  .search_input button {
+    float: left;
+    width: 20%;
+    height: 40px;
+    padding: 20px;
+    background: #62a2c2;
+    color: white;
+    font-size: 17px;
+    border: 1px solid rgb(226, 230, 213);
+    border-left: none;
+    cursor: pointer;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+    background-color: #e5e9ed;
+    border-radius: 10%;
+  }
+  
+  .menu_icon {
+    display: none !important;
+  }
+  
+  .user-type-display {
+    /* display: none; */
+    position: fixed;
+    top: 120px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #789c56;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 15px;
+  }
+  
+  .my-chat {
+    /* display: none; */
+    position: fixed;
+    bottom: 70px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #858b80;
+    color: white;
+    cursor: pointer;
+    /* padding: 15px; */
+    /* border-radius: 15px; */
+    /* width: 10%; */
+    margin-bottom: 10px;
+  }
+  
+  .my-chat img {
+    width: 40px;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .menu_icon {
+      display: unset !important;
+      margin-right: 10px;
+    }
+  
+    .my_content {
+      display: none !important;
+    }
+  }
+  
+  .my_content_mobile {
+    position: relative;
+    display: none;
+    /* background-color: #0681da; */
+    z-index: 10;
+    height: max-content;
+    background-color: white;
+  }
+  
+  .my_content_mobile li {
+    color: rgb(68, 64, 64) !important;
+    background-color: rgb(79, 73, 73);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    border: 1px solid white;
+  }
+  
+  .my_content_mobile li.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .my_content_mobile li:hover {
+    background-color: #5465c5;
+    color: black;
+  }
+  
+  .my_content_mobile li.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .my_content_mobile .search_input {
+    height: 70px;
+  }
+  
+  .my_content_mobile .mode_toggler {
+    height: 70px;
+    padding: 20px 0px 0px 20px;
+  }
+
+  .mode_toggler label {
+    color: white;
+  }
+  
+  .header-market-image {
+    height: 80px;
+    width: 200px;
+  }
+  
+  .header-cart-image {
+    height: 40px;
+    width: 50px;
+  }

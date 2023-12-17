@@ -1,0 +1,74 @@
+/*
+PULIGUNDLA, JASHWANTH CHOWDARY (1001949700)
+PATIL, SWAPNIL DIGAMBAR (1002032004)
+REDDY, RANJITH GOPAL (1002028255) 
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.sp-left {
+    width: 40%;
+    float: left;
+    padding: 15px;
+    text-align: center;
+}
+
+.sp-right {
+    width: 55%;
+    float: left;
+    padding: 15px;
+    text-align: center;
+}
+
+.prof-pic {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.bordered-div {
+    border-bottom: 2px solid rgb(200, 200, 200);
+    text-align: center;
+    padding: 10px;
+}
+
+.profile-edit-btn {
+    color: rgb(85, 84, 84);
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 783px) {
+    .sp-left, .sp-right {
+        width: 100%;
+        /* margin-left: 20px; */
+        float: left;
+        text-align: center;
+    }
+}

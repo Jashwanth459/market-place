@@ -1,0 +1,21 @@
+/*
+PULIGUNDLA, JASHWANTH CHOWDARY (1001949700)
+PATIL, SWAPNIL DIGAMBAR (1002032004)
+REDDY, RANJITH GOPAL (1002028255) 
+*/
+
+.footer_name {
+    font-weight: 700;
+    color: rgb(205, 255, 78);
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #789c56;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
