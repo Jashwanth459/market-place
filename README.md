@@ -40,6 +40,19 @@
 Please read through the ```report.md``` file to understand more about the project
 
 # Web Pages
+## Home Page
+![image](https://github.com/Jashwanth459/market-place/assets/34550047/c942311d-b5c8-43df-a5fa-5a752005edd3)
+![image](https://github.com/Jashwanth459/market-place/assets/34550047/23ed9a7f-c028-49b1-8466-c49817ff4a66)
+
+## Login Page
+![image](https://github.com/Jashwanth459/market-place/assets/34550047/d0694a2a-ba5c-4690-90eb-3a96a1265c24)
+
+## Register Page
+![image](https://github.com/Jashwanth459/market-place/assets/34550047/6726faf3-ad64-458e-95cd-16702542bcc2)
+
+## Reset Password Page
+![image](https://github.com/Jashwanth459/market-place/assets/34550047/b4c88819-591b-4786-974c-d85bb5dba77d)
+
 ## Student Page
 ### Products
 ![image](https://github.com/Jashwanth459/market-place/assets/34550047/09e3c5e3-3692-4146-aa78-22e946e66f02)
@@ -58,18 +71,6 @@ Please read through the ```report.md``` file to understand more about the projec
 
 ### Orders
 ![image](https://github.com/Jashwanth459/market-place/assets/34550047/ac54fb9e-8d39-4714-926a-24e266d0d51c)
-
-## Home Page
-![image](https://github.com/Jashwanth459/market-place/assets/34550047/a35f1c80-e54f-4ed7-bdd4-a14f28832b1a)
-
-## Login Page
-![image](https://github.com/Jashwanth459/market-place/assets/34550047/50e794be-6186-409d-a89a-14da5f17a428)
-
-## Registration Page
-![image](https://github.com/Jashwanth459/market-place/assets/34550047/8a0d452c-3655-4ba6-8601-ae6ab0cb29d8)
-
-## Reset Password Page
-![image](https://github.com/Jashwanth459/market-place/assets/34550047/b4c88819-591b-4786-974c-d85bb5dba77d)
 
 ## Contact Us Page
 ![image](https://github.com/Jashwanth459/market-place/assets/34550047/93b00976-b6c1-4eca-8de7-2d39f00fa862)
