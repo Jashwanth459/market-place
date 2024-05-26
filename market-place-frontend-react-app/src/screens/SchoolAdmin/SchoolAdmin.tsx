@@ -94,9 +94,9 @@ export default function SchoolAdmin(props: any) {
             if(!(window.localStorage.getItem('user_object')) || window.localStorage.getItem('user_object') && JSON.parse(window.localStorage.getItem('user_object') || '')?.user_type != 'sch_adm') {
                 if(window.confirm('You are not authorized to access this page. Please confirm to login with School Admin Credentials..') == true) {
                     window.localStorage.removeItem('user_object')
-                    navigate('/login')
+                    navigate('/market-place-app/login')
                 } else {
-                    navigate('/')
+                    navigate('/market-place-app/')
                 }
             }
         }, [])

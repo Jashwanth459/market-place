@@ -96,9 +96,9 @@ export default function SuperAdmin(props: any) {
             console.log('in if');
             if (window.confirm('You are not authorized to access this page. Please confirm to login with Super Admin Credentials..') == true) {
                 window.localStorage.removeItem('user_object')
-                navigate('/login')
+                navigate('/market-place-app/login')
             } else {
-                navigate('/')
+                navigate('/market-place-app/')
             }
         }
 

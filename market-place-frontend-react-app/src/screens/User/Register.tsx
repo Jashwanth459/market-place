@@ -52,15 +52,15 @@ export default function Register(props: any) {
                         {registerStatus == 'failed' && <p className='login-error-message' style={{ textAlign: 'center' }}>Registration Failed. Please try again.</p>}
                         {registerStatus == 'success' && <p className='login-success-message' style={{ textAlign: 'center' }}>Registration Succeeded. 
                         <div className="login-link">
-                            <NavLink to={'/login'} title='Register'><a style={{color: 'blue'}}><u>Signin now</u></a></NavLink>
+                            <NavLink to={'/market-place-app/login'} title='Register'><a style={{color: 'blue'}}><u>Signin now</u></a></NavLink>
                         </div>
                         </p>
                         }
                         <div className="slide-controls">
                             <input type="radio" name="slide" id="login" checked />
                             <input type="radio" name="slide" id="signup" />
-                            <label htmlFor="login" className="slide login"><NavLink to={'/login'} title='Login'>Login</NavLink></label>
-                            <label htmlFor="signup" className="slide signup"><NavLink to={'/register'} title='Register'>Signup</NavLink></label>
+                            <label htmlFor="login" className="slide login"><NavLink to={'/market-place-app/login'} title='Login'>Login</NavLink></label>
+                            <label htmlFor="signup" className="slide signup"><NavLink to={'/market-place-app/register'} title='Register'>Signup</NavLink></label>
                             <div className="slider-tab"></div>
                         </div>
                         <div className="form-inner">
@@ -189,7 +189,7 @@ export default function Register(props: any) {
                                     <Button type='submit' className='register-submit-btn' value='Register' disabled={(otpVerified == 'failed')}>Register</Button>
                                 </div>
                                 <div className="login-link">
-                                    Already a member? <NavLink to={'/login'} title='Register'>Signin now</NavLink>
+                                    Already a member? <NavLink to={'/market-place-app/login'} title='Register'>Signin now</NavLink>
                                 </div>
                             </Form>
                         </div>

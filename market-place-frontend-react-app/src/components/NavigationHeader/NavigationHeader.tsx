@@ -14,33 +14,33 @@ export function NavigationHeader(props: any) {
             <nav>
                 <ul className='home_icon'>
                     <li className='logo'>
-                        <NavLink to={'/'} title='Home'>
+                        <NavLink to={'/market-place-app/'} title='Home'>
                             <img src={MarketImage} width="300px" />
                         </NavLink>
                     </li>
                 </ul>
                 <ul className='my_content'>
                     <li>
-                        <NavLink to={'/'} title='Home'>Home</NavLink>
+                        <NavLink to={'/market-place-app/'} title='Home'>Home</NavLink>
                     </li>
                     <li>
-                        <NavLink to={'/about-us'} title='About-Us'>About</NavLink>
+                        <NavLink to={'/market-place-app/about-us'} title='About-Us'>About</NavLink>
                     </li>
                     <li>
-                        <NavLink to={'/services'} title='Services'>Services</NavLink>
+                        <NavLink to={'/market-place-app/services'} title='Services'>Services</NavLink>
                     </li>
                     <li>
-                        <a href='http://jxp9700.uta.cloud' title='Blog'>Blog</a>
+                        <a href='https://jxp9700.uta.cloud/' title='Blog'>Blog</a>
                     </li>
                     <li>
-                        <NavLink to={'/contact-us'} title='Contact Us'>Contact</NavLink>
+                        <NavLink to={'/market-place-app/contact-us'} title='Contact Us'>Contact</NavLink>
                     </li>
                     <li>
-                        {!userType && <NavLink to={'/login'} title='Login'>Login/Register</NavLink>}
-                        {userType == 'bo' && <NavLink to={'/business_owner'} title='Login'>Business Owner</NavLink>}
-                        {userType == 'super_adm' && <NavLink to={'/super_admin'} title='Login'>Super Admin</NavLink>}
-                        {userType == 'sch_adm' && <NavLink to={'/school_admin'} title='Login'>School Admin</NavLink>}
-                        {userType == 'student' && <NavLink to={'/student_home'} title='Login'>Student</NavLink>}
+                        {!userType && <NavLink to={'/market-place-app/login'} title='Login'>Login/Register</NavLink>}
+                        {userType == 'bo' && <NavLink to={'/market-place-app/business_owner'} title='Login'>Business Owner</NavLink>}
+                        {userType == 'super_adm' && <NavLink to={'/market-place-app/super_admin'} title='Login'>Super Admin</NavLink>}
+                        {userType == 'sch_adm' && <NavLink to={'/market-place-app/school_admin'} title='Login'>School Admin</NavLink>}
+                        {userType == 'student' && <NavLink to={'/market-place-app/student_home'} title='Login'>Student</NavLink>}
                     </li>
                     {userType && <LogoutButton />}
                     <li className="search_input" title="Search...">
@@ -63,27 +63,27 @@ export function NavigationHeader(props: any) {
 
             <ul className='my_content_mobile' style={{ display: show_mobile_nav ? 'unset' : 'None' }}>
                 <li>
-                    <NavLink to={'/'} title='Home'>Home</NavLink>
+                    <NavLink to={'/market-place-app/'} title='Home'>Home</NavLink>
                 </li>
                 <li>
-                    <NavLink to={'/about-us'} title='About-Us'>About</NavLink>
+                    <NavLink to={'/market-place-app/about-us'} title='About-Us'>About</NavLink>
                 </li>
                 <li>
-                    <NavLink to={'/services'} title='Services'>Services</NavLink>
+                    <NavLink to={'/market-place-app/services'} title='Services'>Services</NavLink>
                 </li>
                 <li>
-                    <a href='http://jxp9700.uta.cloud' title='Blog'>Blog</a>
+                    <a href='https://jxp9700.uta.cloud/' title='Blog'>Blog</a>
                     {/* <a href='http://jxp9700.uta.cloud/blog/market-place/' title='Blog'>Blog</a> */}
                 </li>
                 <li>
-                    <NavLink to={'/contact-us'} title='Contact Us'>Contact</NavLink>
+                    <NavLink to={'/market-place-app/contact-us'} title='Contact Us'>Contact</NavLink>
                 </li>
                 <li>
-                    {!userType && <NavLink to={'/login'} title='Login'>Login/Register</NavLink>}
-                    {userType == 'bo' && <NavLink to={'/business_owner'} title='Login'>Business Owner</NavLink>}
-                    {userType == 'super_adm' && <NavLink to={'/super_admin'} title='Login'>Super Admin</NavLink>}
-                    {userType == 'sch_adm' && <NavLink to={'/school_admin'} title='Login'>School Admin</NavLink>}
-                    {userType == 'student' && <NavLink to={'/student_home'} title='Login'>Student</NavLink>}
+                    {!userType && <NavLink to={'/market-place-app/login'} title='Login'>Login/Register</NavLink>}
+                    {userType == 'bo' && <NavLink to={'/market-place-app/business_owner'} title='Login'>Business Owner</NavLink>}
+                    {userType == 'super_adm' && <NavLink to={'/market-place-app/super_admin'} title='Login'>Super Admin</NavLink>}
+                    {userType == 'sch_adm' && <NavLink to={'/market-place-app/school_admin'} title='Login'>School Admin</NavLink>}
+                    {userType == 'student' && <NavLink to={'/market-place-app/student_home'} title='Login'>Student</NavLink>}
                 </li>
                 <li className="search_input" title="Search...">
                     <input type="text" placeholder="Search.." name="search2" />

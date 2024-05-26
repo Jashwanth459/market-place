@@ -53,8 +53,8 @@ export default function Login(props: any) {
                         <div className="slide-controls">
                             <input type="radio" name="slide" id="login" checked />
                             <input type="radio" name="slide" id="signup" />
-                            <label htmlFor="login" className="slide login"><NavLink to={'/login'} title='Login'>Login</NavLink></label>
-                            <label htmlFor="signup" className="slide signup"><NavLink to={'/register'} title='Register'>Signup</NavLink></label>
+                            <label htmlFor="login" className="slide login"><NavLink to={'/market-place-app/login'} title='Login'>Login</NavLink></label>
+                            <label htmlFor="signup" className="slide signup"><NavLink to={'/market-place-app/register'} title='Register'>Signup</NavLink></label>
                             <div className="slider-tab"></div>
                         </div>
                         <div className="form-inner">
@@ -82,14 +82,14 @@ export default function Login(props: any) {
                                 </Form.Field>
                                 {errors.password && <p className='login-error-message'>Please check the Password</p>}
                                 <div className="pass-link">
-                                    <NavLink to={'/forgot_password'} title='Register'>Forgot password?</NavLink>
+                                    <NavLink to={'/market-place-app/forgot_password'} title='Register'>Forgot password?</NavLink>
                                 </div>
                                 <div className="" style={{ textAlign: 'center' }}>
                                     <div className="btn-layer"></div>
                                     <Button type='submit' className='login-submit-btn' value='Login'>Login</Button>
                                 </div>
                                 <div className="signup-link">
-                                    Not a member? <NavLink to={'/register'} title='Register'>Signup now</NavLink>
+                                    Not a member? <NavLink to={'/market-place-app/register'} title='Register'>Signup now</NavLink>
                                 </div>
                             </Form>
                         </div>

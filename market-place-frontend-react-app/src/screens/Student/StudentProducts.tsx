@@ -15,9 +15,9 @@ export default function StudentProducts(props: any) {
     if (!(window.localStorage.getItem('user_object')) || window.localStorage.getItem('user_object') && JSON.parse(window.localStorage.getItem('user_object') || '')?.user_type != 'student') {
       if (window.confirm('You are not authorized to access this page. Please confirm to login with Business Owner Credentials..') == true) {
         window.localStorage.removeItem('user_object')
-        navigate('/login')
+        navigate('/market-place-app/login')
       } else {
-        navigate('/')
+        navigate('/market-place-app/')
       }
     }
   }, [])

@@ -6,7 +6,7 @@ export function LogoutButton(props: any) {
     const onLogout = (data: any) => {
         if(window.confirm('Confirm to Logout') == true) {
             window.localStorage.removeItem('user_object')
-            navigate('/login')
+            navigate('/market-place-app/login')
         }
     }
 

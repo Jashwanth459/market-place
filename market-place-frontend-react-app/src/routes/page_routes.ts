@@ -15,97 +15,97 @@ import StudentHome from '../screens/Student/StudentHome'
 import StudentProducts from '../screens/Student/StudentProducts'
 import StudentOrders from '../screens/Student/StudentOrders'
 import StudentCart from '../screens/Student/StudentCart'
-import Chat from '../screens/Chat/Chat'
+// import Chat from '../screens/Chat/Chat'
 
 export const routes = [ 
     {
-        path: '/',
+        path: '/market-place-app/',
         exact: true,
         content: HomePage
     },
     {
-        path: '/services',
+        path: '/market-place-app/services',
         exact: true,
         content: Services
     },
     {
-        path: '/contact-us',
+        path: '/market-place-app/contact-us',
         exact: true,
         content: Contact
     },
     {
-        path: '/login',
+        path: '/market-place-app/login',
         exact: true,
         content: Login
     },
     {
-        path: '/register',
+        path: '/market-place-app/register',
         exact: true,
         content: Register
     },
     {
-        path: '/forgot_password',
+        path: '/market-place-app/forgot_password',
         exact: true,
         content: ForgotPassword
     },
     {
-        path: '/about-us',
+        path: '/market-place-app/about-us',
         exact: true,
         content: AboutUs
     },
     {
-        path: '/business_owner',
+        path: '/market-place-app/business_owner',
         exact: true,
         content: BusinessOwner
     },
     {
-        path: '/business_owner_chat',
+        path: '/market-place-app/business_owner_chat',
         exact: true,
         content: BusinessOwnerChat
     },
     {
-        path: '/super_admin',
+        path: '/market-place-app/super_admin',
         exact: true,
         content: SuperAdmin
     },
     {
-        path: '/school_admin',
+        path: '/market-place-app/school_admin',
         exact: true,
         content: SchoolAdmin
     },
     {
-        path: '/super_admin_chat',
+        path: '/market-place-app/super_admin_chat',
         exact: true,
         content: SuperAdminChat
     },
     {
-        path: '/student_profile',
+        path: '/market-place-app/student_profile',
         exact: true,
         content: StudentProfile
     },
     {
-        path: '/student_home',
+        path: '/market-place-app/student_home',
         exact: true,
         content: StudentHome
     },
     {
-        path: '/student_products',
+        path: '/market-place-app/student_products',
         exact: true,
         content: StudentProducts
     },
     {
-        path: '/student_orders',
+        path: '/market-place-app/student_orders',
         exact: true,
         content: StudentOrders
     },
     {
-        path: '/student_cart',
+        path: '/market-place-app/student_cart',
         exact: true,
         content: StudentCart
     },
-    {
-        path: '/chat',
-        exact: true,
-        content: Chat
-    }
+    // {
+    //     path: '/chat',
+    //     exact: true,
+    //     content: Chat
+    // }
 ]

@@ -64,9 +64,9 @@ export default function BusinessOwner(props: any) {
         if (!(window.localStorage.getItem('user_object')) || window.localStorage.getItem('user_object') && JSON.parse(window.localStorage.getItem('user_object') || '')?.user_type != 'bo') {
             if (window.confirm('You are not authorized to access this page. Please confirm to login with Business Owner Credentials..') == true) {
                 window.localStorage.removeItem('user_object')
-                navigate('/login')
+                navigate('/market-place-app/login')
             } else {
-                navigate('/')
+                navigate('/market-place-app/')
             }
         }
     }, [])  //temp disable
@@ -625,7 +625,7 @@ export default function BusinessOwner(props: any) {
                     Signed in as a Busniess Owner
                 </div>
                 <div className="my-chat">
-                    <NavLink to={'/chat'} title='BO Chat'><img src={chatImage} /></NavLink>
+                    {/* <NavLink to={'/chat'} title='BO Chat'><img src={chatImage} /></NavLink> */}
                 </div>
                 <br />
             </div>
