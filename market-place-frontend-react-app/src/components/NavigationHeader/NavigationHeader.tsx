@@ -30,7 +30,7 @@ export function NavigationHeader(props: any) {
                         <NavLink to={'/services'} title='Services'>Services</NavLink>
                     </li>
                     <li>
-                        <a href='http://jxp9700.uta.cloud/blog/market-place/' title='Blog'>Blog</a>
+                        <a href='http://jxp9700.uta.cloud' title='Blog'>Blog</a>
                     </li>
                     <li>
                         <NavLink to={'/contact-us'} title='Contact Us'>Contact</NavLink>
@@ -72,7 +72,8 @@ export function NavigationHeader(props: any) {
                     <NavLink to={'/services'} title='Services'>Services</NavLink>
                 </li>
                 <li>
-                    <a href='http://jxp9700.uta.cloud/blog/market-place/' title='Blog'>Blog</a>
+                    <a href='http://jxp9700.uta.cloud' title='Blog'>Blog</a>
+                    {/* <a href='http://jxp9700.uta.cloud/blog/market-place/' title='Blog'>Blog</a> */}
                 </li>
                 <li>
                     <NavLink to={'/contact-us'} title='Contact Us'>Contact</NavLink>

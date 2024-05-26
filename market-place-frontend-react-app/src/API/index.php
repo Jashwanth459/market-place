@@ -1,7 +1,7 @@
 <?php
 $host = "localhost"; 
 $user = "root"; 
-$password = ""; # should update this 
+$password = ""; 
 $dbname = "market_place"; 
 $id = '';
 
